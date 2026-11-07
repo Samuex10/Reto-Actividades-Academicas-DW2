@@ -1,0 +1,12 @@
+PASOS PARA EJECUTAR
+1) Extraiga el ZIP (clic derecho > Extraer todo) en una carpeta corta, p. ej. C:\Proyectos\UniCampus.
+2) Haga doble clic en UniCampus.sln (Visual Studio).
+3) Compile: Ctrl+Shift+B.
+4) Clic derecho en UniCampus.Web > "Establecer como proyecto de inicio". Pulse F5.
+   La base de datos y las tablas se crean solas la primera vez.
+5) Si la página muestra "No fue posible cargar las actividades":
+   - abra en el navegador la misma dirección pero terminando en /Diagnostico.aspx
+   - o revise UniCampus.Web\App_Data\errores.log
+   - si usa SQL Express en vez de LocalDB, cambie la cadena en UniCampus.Web\Web.config
+6) Haga las pruebas de docs\PRUEBAS.md y tome capturas.
+7) Suba a GitHub con docs\SUBIR_A_GITHUB.md.

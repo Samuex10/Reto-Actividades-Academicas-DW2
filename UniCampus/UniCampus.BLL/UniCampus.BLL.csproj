@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <RootNamespace>UniCampus.BLL</RootNamespace>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UniCampus.DAL\UniCampus.DAL.csproj" />
+    <ProjectReference Include="..\UniCampus.Entities\UniCampus.Entities.csproj" />
+  </ItemGroup>
+</Project>

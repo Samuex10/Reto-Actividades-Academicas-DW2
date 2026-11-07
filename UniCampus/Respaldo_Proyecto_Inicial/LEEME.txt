@@ -1,0 +1,3 @@
+Copie aquí, SIN modificar, el proyecto original (formulario de registro) antes de refactorizar.
+La entrega pide "solución organizada y compilable, con respaldo del proyecto inicial".
+Excluya las carpetas bin, obj y .vs al copiarlo.

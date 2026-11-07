@@ -1,0 +1,9 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+packages/
+*.log
+# No suba un Web.config con credenciales; use Web.config.example
+Web.config.local
